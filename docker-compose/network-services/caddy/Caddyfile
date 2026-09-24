@@ -25,6 +25,9 @@
 		radarr.neophantom.com 192.168.10.20:7878
 		sonarr.neophantom.com 192.168.10.20:8989
 		soulsync.neophantom.com 192.168.10.20:8008
+		# Filebrowser, on the cloud container: this is what the old
+		# cloud.neophantom.com DNS record pointed at.
+		cloud.neophantom.com 192.168.10.25:80
 		torrent.neophantom.com 192.168.10.20:8080
 		movies.neophantom.com 192.168.10.21:8096
 		komga.neophantom.com 192.168.10.21:25600
