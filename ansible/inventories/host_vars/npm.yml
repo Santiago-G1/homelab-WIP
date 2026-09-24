@@ -11,5 +11,3 @@ proxy_checks:
   - { host: immich.neophantom.com }
   - { host: adguard.neophantom.com, path: /metrics } # Blocky has no UI
   - { host: grafana.neophantom.com }
-  - { host: uptime.neophantom.com }
-  - { host: alert.neophantom.com }
