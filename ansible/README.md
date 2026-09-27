@@ -90,7 +90,7 @@ is no notification channel configured on purpose.
 
 Certificates are issued by Let's Encrypt through the Cloudflare DNS-01 challenge
 (the token lives in the vault as `vault_cloudflare_api_token`), including the
-`*.neophantom.com` wildcard, so there is nothing to install on client devices.
+`*.domain.com` wildcard, so there is nothing to install on client devices.
 
 The Grafana admin password is the image default (`admin`/`admin`) until the first
 login changes it.
