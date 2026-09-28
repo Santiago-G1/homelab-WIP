@@ -33,13 +33,12 @@ filtering:
     - AAAA
     - ANY
 
-# AdGuard rewrites: every *.neophantom.com and *.securephantom.duckdns.org name
+# AdGuard rewrites: every *.domain.com name
 # resolves to the reverse proxy (Blocky resolves subdomains of a mapping too).
 customDNS:
   customTTL: 1h
   mapping:
-    neophantom.com: 192.168.10.4
-    securephantom.duckdns.org: 192.168.10.4
+    "{{ vault_domainname_hs }}": 192.168.10.4
 
 # The filters AdGuard had enabled. HostlistsRegistry serves them in AdGuard
 # syntax, which Blocky cannot parse, so these are the same HaGeZi lists in their
